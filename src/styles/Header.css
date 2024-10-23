@@ -1,0 +1,30 @@
+/* Header.css */
+.header {
+  background-color: #1e4ed6; /* Background color */
+  padding: 20px; /* Padding around the header */
+  display: flex; /* Use flexbox */
+  flex-direction: column; /* Stack children vertically */
+  align-items: center; /* Center align items horizontally */
+}
+
+.logo {
+  height: 50px; /* Height of the logo */
+  margin-bottom: 10px; /* Space between logo and menu */
+}
+
+.menu {
+  display: flex; /* Use flexbox for menu */
+  align-items: center; /* Center align items vertically */
+}
+
+.menu a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline from links */
+  font-weight: bold; /* Make text bold */
+  /* margin: 0 10px; */
+}
+
+.separator {
+  color: white; /* Color of the separator */
+  margin: 0 10px; /* Space around the separator */
+}
