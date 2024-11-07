@@ -1,107 +1,93 @@
-// TermsAndConditions.js
 import React from 'react';
+import { Box, Typography, Container } from '@mui/material';
 
 const TermsAndConditions = () => {
-
   return (
-    <div style={styles.container}>
-      <h2>Terms and Conditions</h2>
-      <div style={styles.termsContent}>
-        {/* Full Terms and Conditions */}
-        <p>
-          Welcome to AllRummyApps.Com!
-        </p>
-        <p>
-          <strong>All Rummy App Terms and Conditions</strong><br />
-          These terms and conditions outline the rules and regulations for the use of ARA Pvt Ltd.'s Website, located at allrummyapps.com. By accessing this website we assume you accept these terms and conditions. Do not continue to use AllRummyApps.Com if you do not agree to take all of the terms and conditions stated on this page.
-        </p>
-        <p>
+    <Container maxWidth="md" sx={{ padding: '24px 0' }}>
+      {/* Terms and Conditions Heading */}
+      <Box sx={{ marginBottom: '24px' }}>
+        <Typography variant="h3" component="h1" gutterBottom>
+          Terms and Conditions
+        </Typography>
+      </Box>
+
+      {/* Content Sections */}
+      <Box sx={{ marginBottom: '16px' }}>
+        <Typography variant="h5" component="h2" gutterBottom>
+        Indiluckgame Terms and Conditions
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          These terms and conditions outline the rules and regulations for the use of ARA Pvt Ltd.'s Website, located at allrummyapps.com. By accessing this website we assume you accept these terms and conditions. Do not continue to use Indiluckgame.Com if you do not agree to take all of the terms and conditions stated on this page.
+        </Typography>
+        <Typography variant="body1" gutterBottom>
           The terms "Client," "You," and "Your" refer to the users of this website who have agreed to the terms and conditions set forth by the Company. This terminology also applies to all other agreements: the "Terms and Conditions," the "Privacy Statement," the "Disclaimer Notice," and all related documents.
-        </p>
-        <p>
-          Our Company is referred to as "The Company," "Ourselves," "We," "Ours," and "Us." The terms "Party," "Parties," or "Us" include both the Client and us. All phrases refer to the provision of our support to the client in the most effective manner for the specific goal of addressing that client's needs in relation to the rendering of the Company's stated services, in line with and subject to, the law of the Netherlands. Any usage of the aforementioned terminology or other words in the singular, plural, he/she, or they format is understood to be interchangeable and to be referring to the same.
-        </p>
+        </Typography>
+      </Box>
 
-        <p><strong>Cookies</strong><br />
-          We employ the use of cookies. By accessing AllRummyApps.Com, you agreed to use cookies in agreement with ARA Pvt Ltd.'s Privacy Policy. 
-        </p>
-        <p>
-          Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website. Some of our affiliate/advertising partners may also use cookies.
-        </p>
+      <Box sx={{ marginBottom: '16px' }}>
+        <Typography variant="h5" component="h2" gutterBottom>
+          Cookies
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          We employ the use of cookies. By accessing Indiluckgame.Com, you agreed to use cookies in agreement with ARA Pvt Ltd.'s Privacy Policy.
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website.
+        </Typography>
+      </Box>
 
-        <p><strong>License</strong><br />
-          Unless otherwise stated, ARA Pvt Ltd. and/or its licensors own the intellectual property rights for all material on AllRummyApps.Com. All intellectual property rights are reserved. You may access this from AllRummyApps.Com for your own personal use subjected to restrictions set in these terms and conditions.
-        </p>
+      <Box sx={{ marginBottom: '16px' }}>
+        <Typography variant="h5" component="h2" gutterBottom>
+          License
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          Unless otherwise stated, ARA Pvt Ltd. and/or its licensors own the intellectual property rights for all material on Indiluckgame.Com. All intellectual property rights are reserved. You may access this from Indiluckgame.Com for your own personal use subjected to restrictions set in these terms and conditions.
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          You must not republish material from Indiluckgame.Com, sell, rent or sub-license material, or reproduce, duplicate, or copy material from Indiluckgame.Com.
+        </Typography>
+      </Box>
 
-        <ul>
-          <li>You must not republish material from AllRummyApps.Com</li>
-          <li>You must not sell, rent or sub-license material from AllRummyApps.Com</li>
-          <li>You must not reproduce, duplicate or copy material from AllRummyApps.Com</li>
-          <li>You must not redistribute content from AllRummyApps.Com</li>
-        </ul>
+      <Box sx={{ marginBottom: '16px' }}>
+        <Typography variant="h5" component="h2" gutterBottom>
+          Comments
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas. ARA Pvt Ltd. does not filter, edit, publish or review Comments prior to their presence on the website.
+        </Typography>
+      </Box>
 
-        <p>
-          This Agreement shall begin on the date hereof.
-        </p>
+      <Box sx={{ marginBottom: '16px' }}>
+        <Typography variant="h5" component="h2" gutterBottom>
+          Hyperlinking to our Content
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          We may consider and approve other link requests from various types of organizations, including government agencies, search engines, and news organizations.
+        </Typography>
+      </Box>
 
-        <p>
-          Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas of the website. ARA Pvt Ltd. does not filter, edit, publish or review Comments prior to their presence on the website. Comments do not reflect the views and opinions of ARA Pvt Ltd., its agents and/or affiliates. Comments reflect the views and opinions of the person who post their views and opinions. To the extent permitted by applicable laws, ARA Pvt Ltd. shall not be liable for the Comments or for any liability, damages or expenses caused and/or suffered as a result of any use of and/or posting of and/or appearance of the Comments on this website.
-        </p>
+      <Box sx={{ marginBottom: '16px' }}>
+        <Typography variant="h5" component="h2" gutterBottom>
+          Content Liability
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          We shall not be held responsible for any content that appears on your Website. You agree to protect and defend us against all claims that are arising on your Website.
+        </Typography>
+      </Box>
 
-        <p><strong>Hyperlinking to our Content</strong></p>
-        <p>We may consider and approve other link requests from the following types of organizations:</p>
-        <ul>
-          <li>Government agencies</li>
-          <li>Search engines</li>
-          <li>News organizations</li>
-          <li>Online directory distributors</li>
-          <li>Internet portals</li>
-          <li>Accounting, law and consulting firms</li>
-          <li>Educational institutions and trade associations</li>
-        </ul>
-
-        <p><strong>iFrames</strong><br />
-          Without prior approval and written permission, you may not create frames around our Webpages that alter in any way the visual presentation or appearance of our Website.
-        </p>
-
-        <p><strong>Content Liability</strong><br />
-          We shall not be held responsible for any content that appears on your Website. You agree to protect and defend us against all claims that are rising on your Website.
-        </p>
-
-        <p><strong>Disclaimer</strong><br />
+      <Box sx={{ marginBottom: '16px' }}>
+        <Typography variant="h5" component="h2" gutterBottom>
+          Disclaimer
+        </Typography>
+        <Typography variant="body1" gutterBottom>
           To the maximum extent permitted by applicable law, we exclude all representations, warranties and conditions relating to our website and the use of this website.
-        </p>
-      </div>
-    </div>
+        </Typography>
+        <Typography variant="body2" gutterBottom sx={{ fontStyle: 'italic', fontWeight: 'bold', color: 'red' }}>
+          Notice: This website includes information for users over 18 years of age only. If you decide to use these applications, financial risks are involved, and any losses incurred are your responsibility.
+        </Typography>
+      </Box>
+    </Container>
   );
-};
-
-// Styles for the component
-const styles = {
-//   container: {
-//     width: '100%',
-//     margin: '0 auto',
-//     textAlign: 'center',
-//   },
-//   termsContent: {
-//     height: '300px',
-//     overflowY: 'scroll',
-//     border: '1px solid #ccc',
-//     padding: '10px',
-//     marginBottom: '20px',
-//     backgroundColor: '#f9f9f9',
-//   },
-//   button: {
-//     padding: '10px 20px',
-//     backgroundColor: '#28a745',
-//     color: '#fff',
-//     border: 'none',
-//     cursor: 'pointer',
-//   },
-//   successMessage: {
-//     color: 'green',
-//     fontWeight: 'bold',
-//   },
 };
 
 export default TermsAndConditions;

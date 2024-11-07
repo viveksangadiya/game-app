@@ -1,81 +1,78 @@
 import React from 'react';
+import { Box, Typography, Container, Link } from '@mui/material';
 
 const Contact = () => {
   return (
-    <div style={styles.container}>
-      {/* Contact Us Section */}
-      <section style={styles.section}>
-        <h2>Contact Us</h2>
-        <p>
-          <strong>All Rummy App Contact Us</strong> <br />
+    <Container maxWidth="md" sx={{ padding: '24px 0' }}>
+      {/* Contact Us Heading */}
+      <Box sx={{ marginBottom: '24px' }}>
+        <Typography variant="h3" component="h1" gutterBottom>
+          Contact Us
+        </Typography>
+      </Box>
+
+      {/* Contact Information */}
+      <Box sx={{ marginBottom: '16px' }}>
+        <Typography variant="h5" component="h2" gutterBottom>
+        Indiluckgame Contact Us
+        </Typography>
+        <Typography variant="body1" gutterBottom>
           This platform does not provide any support for the applications available here, as none of the apps or games are operated by us. For any assistance, please use the contact details available within the respective app to get support.
-        </p>
-      </section>
+        </Typography>
+      </Box>
 
-      {/* Business Queries Section */}
-      <section style={styles.section}>
-        <h2>Business Queries</h2>
-        <p>
-          <strong>All Rummy App Business Cooperation</strong> <br />
+      {/* Business Queries */}
+      <Box sx={{ marginBottom: '16px' }}>
+        <Typography variant="h5" component="h2" gutterBottom>
+          Business Queries
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          All Rummy App Business Cooperation
+        </Typography>
+        <Typography variant="body1" gutterBottom>
           If you wish to sponsor your app/game on our website, you can contact us using the following details:
-        </p>
-        <table style={styles.table}>
-          <thead>
-            <tr>
-              <th>Title</th>
-              <th>Link</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>Email</td>
-              <td><a href="mailto:PromotionKare@gmail.com">PromotionKare@gmail.com</a></td>
-            </tr>
-            <tr>
-              <td>Telegram</td>
-              <td><a href="https://t.me/PromotionKare">@PromotionKare</a></td>
-            </tr>
-          </tbody>
-        </table>
-        <p>
-          You can contact us directly via the email/Telegram links provided in the table, and we can discuss business cooperation with you.
-        </p>
-      </section>
+        </Typography>
 
-      {/* Attention Notice Section */}
-      <section style={styles.section}>
-        <h2>Attention Notice!</h2>
-        <p>
-          <strong>All Rummy App Attention</strong> <br />
-          <strong>Notice:</strong> If you download any application from this website, always keep in mind that financial risk is involved. Avoid adding your money, as you might face losses, and you will be solely responsible for any such occurrence. [This is allowed for individuals 18+ years of age only.]
-        </p>
-      </section>
-    </div>
+        {/* Contact Details Table */}
+        <Box component="table" sx={{ width: '100%', marginTop: '16px', borderSpacing: '0 8px' }}>
+          <Box component="thead">
+            <Box component="tr">
+              <Box component="th" sx={{ textAlign: 'left', paddingRight: '8px' }}>Title</Box>
+              <Box component="th" sx={{ textAlign: 'left' }}>Link</Box>
+            </Box>
+          </Box>
+          <Box component="tbody">
+            <Box component="tr">
+              <Box component="td" sx={{ textAlign: 'left', paddingRight: '8px' }}>Email</Box>
+              <Box component="td" sx={{ textAlign: 'left' }}>
+                <Link href="mailto:PromotionKare@gmail.com">PromotionKare@gmail.com</Link>
+              </Box>
+            </Box>
+            <Box component="tr">
+              <Box component="td" sx={{ textAlign: 'left', paddingRight: '8px' }}>Telegram</Box>
+              <Box component="td" sx={{ textAlign: 'left' }}>
+                <Link href="https://t.me/PromotionKare" target="_blank" rel="noopener noreferrer">@PromotionKare</Link>
+              </Box>
+            </Box>
+          </Box>
+        </Box>
+
+        <Typography variant="body1" gutterBottom sx={{ marginTop: '8px' }}>
+          You can contact us directly via the email/Telegram links provided above, and we can discuss business cooperation with you.
+        </Typography>
+      </Box>
+
+      {/* Attention Notice */}
+      <Box sx={{ marginBottom: '16px' }}>
+        <Typography variant="h5" component="h2" gutterBottom>
+          Attention Notice!
+        </Typography>
+        <Typography variant="body2" gutterBottom sx={{ fontStyle: 'italic', fontWeight: 'bold', color: 'red' }}>
+          Notice: If you download any application from this website, always keep in mind that financial risk is involved. Avoid adding your money, as you might face losses, and you will be solely responsible for any such occurrence. [This is allowed for individuals 18+ years of age only.]
+        </Typography>
+      </Box>
+    </Container>
   );
-};
-
-const styles = {
-  container: {
-    padding: '20px',
-    fontFamily: 'Arial, sans-serif',
-  },
-  section: {
-    marginBottom: '20px',
-  },
-  table: {
-    width: '100%',
-    borderCollapse: 'collapse',
-    marginTop: '10px',
-  },
-  th: {
-    textAlign: 'left',
-    padding: '10px',
-    backgroundColor: '#f2f2f2',
-  },
-  td: {
-    padding: '10px',
-    borderBottom: '1px solid #ddd',
-  },
 };
 
 export default Contact;

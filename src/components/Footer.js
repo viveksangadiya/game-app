@@ -45,7 +45,7 @@ const Footer = () => {
       </div>
 
       <div style={styles.copyright}>
-        Copyright © AllRummyApps.com All Rights Reserved
+        Copyright © Indiluckgame.com All Rights Reserved
       </div>
     </footer>
   );

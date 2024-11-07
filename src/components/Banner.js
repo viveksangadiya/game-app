@@ -1,10 +1,12 @@
 import React from "react";
 import "../styles/Banner.css";
+import AdsComponent from './AdsComponent';
+
 
 const Banner = () => {
   return (
     <div className="banner">
-      <img src="ad_banner.jpg" alt="Ad Banner" />
+      <AdsComponent dataAdSlot='7994275829' />
     </div>
   );
 };

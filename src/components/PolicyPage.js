@@ -1,69 +1,116 @@
 import React from 'react';
-import "../styles/PolicyPage.css";
+import { Box, Typography, Container } from '@mui/material';
 
 const PolicyPage = () => {
   return (
-    <div className="policy-container">
-      <h1>Privacy Policy</h1>
-      <p>
-        All Rummy App Privacy Policy
-        <br />
-        At AllRummyApps.Com, accessible from http://allrummyapps.com/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by AllRummyApps.Com and how we use it.
-      </p>
-      
-      <h2>Consent</h2>
-      <p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
+    <Container maxWidth="md" sx={{ padding: '24px 0' }}>
+      {/* Privacy Policy Heading */}
+      <Box sx={{ marginBottom: '24px' }}>
+        <Typography variant="h3" component="h1" gutterBottom>
+          Privacy Policy
+        </Typography>
+      </Box>
 
-      <h2>Information we collect</h2>
-      <p>
-        The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.
-        <br />
-        If you contact us directly, we may receive additional information about you such as your name, email address, phone number, and any other information you may choose to provide.
-      </p>
+      {/* All Rummy App Privacy Policy Section */}
+      <Box sx={{ marginBottom: '16px' }}>
+        <Typography variant="h5" component="h2" gutterBottom>
+        Indiluckgame Privacy Policy
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          At Indiluckgame.com, accessible from http://indiluckgame.com/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Indiluckgame.com and how we use it.
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          This Privacy Policy applies only to our online activities and is valid for visitors to our website regarding the information they shared and/or collected on Indiluckgame.com. This policy does not apply to any information collected offline or via channels other than this website.
+        </Typography>
+      </Box>
 
-      <h2>How we use your information</h2>
-      <ul>
-        <li>Provide, operate, and maintain our website</li>
-        <li>Improve, personalize, and expand our website</li>
-        <li>Understand and analyze how you use our website</li>
-        <li>Develop new products, services, features, and functionality</li>
-        <li>Communicate with you for customer service or marketing purposes</li>
-        <li>Send you emails</li>
-        <li>Find and prevent fraud</li>
-      </ul>
+      {/* Consent Section */}
+      <Box sx={{ marginBottom: '16px' }}>
+        <Typography variant="h5" component="h2" gutterBottom>
+          Consent
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          By using our website, you hereby consent to our Privacy Policy and agree to its terms.
+        </Typography>
+      </Box>
 
-      <h2>Log Files</h2>
-      <p>
-        AllRummyApps.Com follows a standard procedure of using log files. These files log visitors when they visit websites. 
-        The information collected by log files includes internet protocol (IP) addresses, browser type, Internet Service Provider (ISP), and more.
-      </p>
+      {/* Information Collection Section */}
+      <Box sx={{ marginBottom: '16px' }}>
+        <Typography variant="h5" component="h2" gutterBottom>
+          Information We Collect
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          The personal information that you are asked to provide, and the reasons why you are asked to provide it, will be made clear to you at the point we ask you to provide your personal information.
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          If you contact us directly, we may receive additional information such as your name, email address, phone number, the contents of the message and/or attachments, and any other information you choose to provide.
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          When you register for an account, we may ask for contact information, including name, company name, address, email, and phone number.
+        </Typography>
+      </Box>
 
-      <h2>Advertising Partners Privacy Policies</h2>
-      <p>Third-party ad servers or ad networks use technologies like cookies, JavaScript, or Web Beacons for advertisements and links on AllRummyApps.Com.</p>
+      {/* Usage of Information Section */}
+      <Box sx={{ marginBottom: '16px' }}>
+        <Typography variant="h5" component="h2" gutterBottom>
+          How We Use Your Information
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          We use the information we collect in various ways, including to:
+        </Typography>
+        <Typography component="ul">
+          <Typography component="li">Provide, operate, and maintain our website</Typography>
+          <Typography component="li">Improve, personalize, and expand our website</Typography>
+          <Typography component="li">Understand and analyze how you use our website</Typography>
+          <Typography component="li">Develop new products, services, features, and functionality</Typography>
+          <Typography component="li">Communicate with you for customer service, updates, and marketing purposes</Typography>
+          <Typography component="li">Send you emails</Typography>
+          <Typography component="li">Prevent fraud</Typography>
+        </Typography>
+      </Box>
 
-      <h2>Third Party Privacy Policies</h2>
-      <p>AllRummyApps.Com's Privacy Policy does not apply to other advertisers or websites. We advise you to consult their Privacy Policies for more information.</p>
+      {/* Log Files Section */}
+      <Box sx={{ marginBottom: '16px' }}>
+        <Typography variant="h5" component="h2" gutterBottom>
+          Log Files
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          Indiluckgame.com follows a standard procedure of using log files. These files log visitors when they visit websites. All hosting companies do this as part of their hosting services' analytics.
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          The information collected by log files includes IP addresses, browser type, ISP, date and time stamp, referring/exit pages, and the number of clicks. These are not linked to any information that is personally identifiable.
+        </Typography>
+      </Box>
 
-      <h2>CCPA Privacy Rights</h2>
-      <p>California consumers have the right to request that a business disclose or delete personal data. If you would like to exercise any of these rights, please contact us.</p>
+      {/* Advertising Partners Section */}
+      <Box sx={{ marginBottom: '16px' }}>
+        <Typography variant="h5" component="h2" gutterBottom>
+          Advertising Partners Privacy Policies
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          You may consult this list to find the Privacy Policy for each of the advertising partners of Indiluckgame.com.
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          Third-party ad servers or ad networks use technologies like cookies, JavaScript, or Web Beacons that are used in their respective advertisements and links that appear on Indiluckgame.com, sent directly to users' browsers.
+        </Typography>
+      </Box>
 
-      <h2>GDPR Data Protection Rights</h2>
-      <ul>
-        <li>The right to access your personal data</li>
-        <li>The right to rectification of inaccurate or incomplete data</li>
-        <li>The right to erasure of your data</li>
-        <li>The right to restrict or object to the processing of your data</li>
-        <li>The right to data portability</li>
-      </ul>
-
-      <h2>Children's Information</h2>
-      <p>AllRummyApps.Com does not knowingly collect any personal information from children under the age of 13. If you think your child provided this kind of information, please contact us.</p>
-
-      <h2>Contact Information</h2>
-      <p>If you have any questions, please contact us at: PromotionKare@gmail.com</p>
-
-      <p>Note: If you have an application company and want to advertise your app, contact us for more details.</p>
-    </div>
+      {/* Contact Information Section */}
+      <Box sx={{ marginBottom: '16px' }}>
+        <Typography variant="h5" component="h2" gutterBottom>
+          Contact Information
+        </Typography>
+        <Typography variant="body1" gutterBottom>
+          Contact Us – PromotionKare@gmail.com
+        </Typography>
+        <Typography variant="body2" gutterBottom sx={{ fontStyle: 'italic', color: 'red' }}>
+          Note: If you have an application company and want to promote your application, contact us using the email above to advertise on our website.
+        </Typography>
+      </Box>
+    </Container>
   );
 };
 
