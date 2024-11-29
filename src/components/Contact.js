@@ -45,13 +45,13 @@ const Contact = () => {
             <Box component="tr">
               <Box component="td" sx={{ textAlign: 'left', paddingRight: '8px' }}>Email</Box>
               <Box component="td" sx={{ textAlign: 'left' }}>
-                <Link href="mailto:PromotionKare@gmail.com">PromotionKare@gmail.com</Link>
+                <Link href="mailto:PromotionKare@gmail.com">indiluckgame@gmail.com</Link>
               </Box>
             </Box>
             <Box component="tr">
               <Box component="td" sx={{ textAlign: 'left', paddingRight: '8px' }}>Telegram</Box>
               <Box component="td" sx={{ textAlign: 'left' }}>
-                <Link href="https://t.me/PromotionKare" target="_blank" rel="noopener noreferrer">@PromotionKare</Link>
+                <Link href="https://t.me/PromotionKare" target="_blank" rel="noopener noreferrer">@indiluckgame</Link>
               </Box>
             </Box>
           </Box>

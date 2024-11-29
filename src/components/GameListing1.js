@@ -16,7 +16,7 @@ const games = [
   {
     id: 2,
     title: 'Rummyse',
-    image: 'https://allrummyapps.com/rummy-loot/img/rummy-loot-logo.webp',
+    image: 'https://assets.agent61.com/images/share/aw_page_c_1/theme_1.png',
     grade: '100% SECURE',
     downloadLink: 'https://www.rummyse.com/share/3tkUtxy',
     rank: 2,
@@ -24,7 +24,7 @@ const games = [
   {
     id: 3,
     title: 'Rummy mars',
-    image: 'https://allrummyapps.com/rummy-loot/img/rummy-loot-logo.webp',
+    image: 'https://assets.agent61.com/images/share/aw_page_c_1/theme_1.png',
     grade: '100% SECURE',
     downloadLink: 'https://www.rummy-mars.vip/eWtvdF1zUUJ7fA4=',
     rank: 3,

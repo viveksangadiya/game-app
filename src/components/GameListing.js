@@ -16,7 +16,7 @@ const games = [
     {
       id: 2,
       name: 'Rummyse',
-      image: 'https://allrummyapps.com/rummy-loot/img/rummy-loot-logo.webp',
+      image: 'https://assets.agent61.com/images/share/aw_page_c_1/theme_1.png',
       description: 'Rummy Tournament',
       bonus: '300k+ | Bonus ₹50',
       minWithdrawal: 'Min. Withdrawal ₹150/-',
@@ -25,7 +25,7 @@ const games = [
     {
       id: 3,
       name: 'Rummy mars',
-      image: 'https://allrummyapps.com/rummy-loot/img/rummy-loot-logo.webp',
+      image: 'https://assets.agent61.com/images/share/aw_page_c_1/theme_1.png',
       description: 'Rummy Royale',
       bonus: '500k+ | Bonus ₹60',
       minWithdrawal: 'Min. Withdrawal ₹200/-',

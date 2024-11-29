@@ -17,7 +17,7 @@ const TermsAndConditions = () => {
         Indiluckgame Terms and Conditions
         </Typography>
         <Typography variant="body1" gutterBottom>
-          These terms and conditions outline the rules and regulations for the use of ARA Pvt Ltd.'s Website, located at allrummyapps.com. By accessing this website we assume you accept these terms and conditions. Do not continue to use Indiluckgame.Com if you do not agree to take all of the terms and conditions stated on this page.
+          These terms and conditions outline the rules and regulations for the use of Indiluckgame Pvt Ltd.'s Website, located at indiluckgame.com. By accessing this website we assume you accept these terms and conditions. Do not continue to use Indiluckgame.Com if you do not agree to take all of the terms and conditions stated on this page.
         </Typography>
         <Typography variant="body1" gutterBottom>
           The terms "Client," "You," and "Your" refer to the users of this website who have agreed to the terms and conditions set forth by the Company. This terminology also applies to all other agreements: the "Terms and Conditions," the "Privacy Statement," the "Disclaimer Notice," and all related documents.
@@ -29,7 +29,7 @@ const TermsAndConditions = () => {
           Cookies
         </Typography>
         <Typography variant="body1" gutterBottom>
-          We employ the use of cookies. By accessing Indiluckgame.Com, you agreed to use cookies in agreement with ARA Pvt Ltd.'s Privacy Policy.
+          We employ the use of cookies. By accessing Indiluckgame.Com, you agreed to use cookies in agreement with Indiluckgame Pvt Ltd.'s Privacy Policy.
         </Typography>
         <Typography variant="body1" gutterBottom>
           Most interactive websites use cookies to let us retrieve the user’s details for each visit. Cookies are used by our website to enable the functionality of certain areas to make it easier for people visiting our website.
@@ -41,7 +41,7 @@ const TermsAndConditions = () => {
           License
         </Typography>
         <Typography variant="body1" gutterBottom>
-          Unless otherwise stated, ARA Pvt Ltd. and/or its licensors own the intellectual property rights for all material on Indiluckgame.Com. All intellectual property rights are reserved. You may access this from Indiluckgame.Com for your own personal use subjected to restrictions set in these terms and conditions.
+          Unless otherwise stated, Indiluckgame Pvt Ltd. and/or its licensors own the intellectual property rights for all material on Indiluckgame.Com. All intellectual property rights are reserved. You may access this from Indiluckgame.Com for your own personal use subjected to restrictions set in these terms and conditions.
         </Typography>
         <Typography variant="body1" gutterBottom>
           You must not republish material from Indiluckgame.Com, sell, rent or sub-license material, or reproduce, duplicate, or copy material from Indiluckgame.Com.
@@ -53,7 +53,7 @@ const TermsAndConditions = () => {
           Comments
         </Typography>
         <Typography variant="body1" gutterBottom>
-          Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas. ARA Pvt Ltd. does not filter, edit, publish or review Comments prior to their presence on the website.
+          Parts of this website offer an opportunity for users to post and exchange opinions and information in certain areas. Indiluckgame Pvt Ltd. does not filter, edit, publish or review Comments prior to their presence on the website.
         </Typography>
       </Box>
 
