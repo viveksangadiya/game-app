@@ -29,6 +29,15 @@ const games = [
     downloadLink: 'https://www.rummy-mars.vip/eWtvdF1zUUJ7fA4=',
     rank: 3,
   },
+  // {
+  //   id: 4,
+  //   name: 'Vegas casino',
+  //   image: 'https://www.vbyttu.com/img/148.png',
+  //   description: 'Daily VIP cashback of 50,000 Rupees ready to boost your balance!',
+  //   bonus: '500k+ | Bonus ₹60',
+  //   minWithdrawal: 'Min. Withdrawal ₹200/-',
+  //   downloadLink: 'https://www.vbyttu.com/AiI2MlPGe1JWQdVaUqUM',
+  // },
 ];
 
 // Function to get trophy color based on rank
