@@ -6,7 +6,7 @@ import AdsComponent from './AdsComponent';
 const Banner = () => {
   return (
     <div className="banner">
-      <AdsComponent dataAdSlot='7994275829' />
+      <AdsComponent dataAdSlot='1234567890' />
     </div>
   );
 };

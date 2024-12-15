@@ -15,7 +15,7 @@ function HomePage() {
       {/* <Header /> */}
 
       {/* Banner Ad Section */}
-      {/* <Banner /> */}
+      <Banner />
 
       {/* Main Feature Section */}
       <MainFeature />
