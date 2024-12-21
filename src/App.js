@@ -7,6 +7,7 @@ import PolicyPage from "./components/PolicyPage";
 import TermsAndConditions from "./components/TermsAndConditions";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
+import GameDetail from './components/GameDetail';
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route path="/privacy-policy" element={<PolicyPage />} />
         <Route path="/t&c" element={<TermsAndConditions />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/:slug" element={<GameDetail />} />
       </Routes>
       <Footer />
     </Router>

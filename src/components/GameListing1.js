@@ -1,7 +1,8 @@
 import React from 'react';
 import { Box, Typography, Button, Grid, Link } from '@mui/material';
 import DownloadIcon from '@mui/icons-material/Download';
-import EmojiEventsIcon from '@mui/icons-material/EmojiEvents'; // Trophy icon
+import EmojiEventsIcon from '@mui/icons-material/EmojiEvents';
+import { useNavigate } from 'react-router-dom';
 
 // Sample data for games
 const games = [
@@ -12,6 +13,30 @@ const games = [
     grade: '100% SECURE',
     downloadLink: 'https://www.earntp.com/m/csyd3g',
     rank: 1,
+    slug: 'dragon-tiger-game',
+    heading:'Explore Our Most Loved Dragon Tiger Online Casino Game',
+    shortDesc:`Are you a fan of casino card games? You will definitely love our dragon tiger real cash game. At Indiluckgame.com,
+    we give access to our users to play this popular free card game. At our virtual gaming platform, you can play this card
+    game conveniently. Our great and seamless user interface will make your casino gaming experience truly exciting.
+    Players will get a daily gift to start this game. Download our rummy game app to start playing Dragon Tiger!`,
+    heading2:'Standout Features From Our Dragon Tiger Real Cash Game!',
+    feature:`
+    Indiluckgame.com has brought you advanced and exciting versions of the Dragon Tiger game. Check out our
+competitive casino card game features:
+• Interactive Gameplay – Our Dragon Tiger Page casino is streamed with high-definition features for great
+quality streaming with no video lags.
+• Live Chat Feature – This live dealer casino game comes with a live chat feature, allowing you to engage
+with Indiluckgame.com's friendly hosts and fellow players.
+• Meet Professional Dealers – You can meet professional dealers in Dragon Tiger from our platform
+facilitating the game through expert skills.
+Move ahead to dragon tiger online game download and invite your friends to join and boost your chances of
+winning. Our platform will enhance your competition in the casino game with daily and weekly tournaments.
+    `,
+    last:`Move ahead to dragon tiger online game download and invite your friends to join and boost your chances of
+    winning. Our platform will enhance your competition in the casino game with daily and weekly tournaments`,
+    metaTitle:'Dragon Tiger Real Cash Game | Dragon Tiger Online Game Download',
+    metaDesc:`Experience the thrill of Dragon Tiger on Indiluck! Play the real cash game and download
+    the best Dragon Tiger online game today.`
   },
   {
     id: 2,
@@ -20,6 +45,28 @@ const games = [
     grade: '100% SECURE',
     downloadLink: 'https://www.rummyse.com/share/3tkUtxy',
     rank: 2,
+    slug: 'rummy-ares-game',
+    heading:'Welcome to Rummy Ares, Start Your Journey with Indiluckgame.com!',
+    shortDesc:`Is it your first time to explore Rummy Ares? Explore the casino journey from our platform. We have the latest
+    launched Rummy Ares APK in our app. We give instant access to our users to the Rummy Ares Page without any
+    loading issues and enjoy a seamless gaming experience!`,
+    heading2:`How to start a Rummy Ares app download From Our Rummy Ares Page?`,
+    feature:`
+    • Open your web browser and visit our official Indiluckgame.com website.
+    • Look for the section of Rummy Ares or search it on the app page.
+    • Select APK Version – Rummy Ares APK download option.
+    • If you have to change your device setting to allow unknown sources. For this go to "Security" or "Privacy,"
+setting in your device to enable "Install from Unknown Sources". This will allow you to proceed with the
+Rummy Ares app download.
+• Next, download the APK to start the process.
+• After the download is complete, open the file and follow the instructions to install the app.
+• After successful installation, open the app and log in to start playing Rummy Ares on Indiluckgame.com.
+    `,
+    last:`Rummy Ares is a modern twist classic card game from the Indian Subcontinent. Downloading the APK from our site
+    you can play live with real players globally, anytime and anywhere, in your preferred language.`,
+    metaTitle:'Rummy Ares APK Download | Rummy Ares App Download Online',
+    metaDesc:`Download the Rummy Ares app on Indiluck! Enjoy seamless gameplay and win big with
+    the best Rummy Ares APK download experience.`
   },
   {
     id: 3,
@@ -28,6 +75,7 @@ const games = [
     grade: '100% SECURE',
     downloadLink: 'https://www.rummy-mars.vip/eWtvdF1zUUJ7fA4=',
     rank: 3,
+    slug: 'rummy-mars',
   },
   // {
   //   id: 4,
@@ -57,10 +105,16 @@ const getTrophyColor = (rank) => {
 // GameCard component for each card
 const GameCard = ({ game }) => {
   const trophyColor = getTrophyColor(game.rank); // Get color based on rank
+  const navigate = useNavigate();
+
+  const handleCardClick = () => {
+    navigate(`/${game.slug}`,{ state: { game } }); // Navigate to the dynamic route
+  };
 
   return (
     <Grid item xs={12} sm={4}>
       <Box
+        onClick={handleCardClick}
         sx={{
           position: 'relative', // For positioning the trophy icon
           border: '1px solid #ccc',
